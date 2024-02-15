@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Inregistrare ">
+    <link rel="icon" type="image/x-icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVfaNkkoUkOhVZOl80EFr-eaTh1tl0H5yZ8A&usqp=CAU">
+    <title>Inregistrare</title>
+</head>
+
+<body>
+    <h1>Formular</h1>
+    <form action="#">
+        <label for="nume">Nume:</label>
+        <input type="text" id="nume" name="nume" placeholder="Introduceți numele">
+        <br>
+
+        <label for="prenume">Prenume:</label>
+        <input type="text" id="prenume" name="prenume" placeholder="Introduceți prenumele">
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Introduceți adresa de email">
+        <br>
+
+        <label for="parola">Parolă:</label>
+        <input type="password" id="parola" name="parola" placeholder="Introduceți parola">
+        <br>
+
+        <label for="sex">Sex:</label>
+        <br>
+        <input type="radio" id="masculin" name="sex" value="masculin" checked>
+        <label for="masculin">Masculin</label>
+        <br>
+        <input type="radio" id="feminin" name="sex" value="feminin">
+        <label for="feminin">Feminin</label>
+        <br>
+
+        <label for="hobby">Hobby-uri:</label>
+        <br>
+        <input type="checkbox" id="citit" name="hobby" value="citit">
+        <label for="citit">Citit</label>
+        <br>
+        <input type="checkbox" id="sport" name="hobby" value="sport">
+        <label for="sport">Sport</label>
+        <br>
+        <input type="checkbox" id="muzica" name="hobby" value="muzica">
+        <label for="muzica">Muzică</label>
+        <br>
+
+        <label for="mesaj">Mesaj:</label>
+        <br>
+        <textarea id="mesaj" name="mesaj" rows="4" cols="50"></textarea>
+        <br>
+
+        <label for="tara">Țară:</label>
+        <select id="tara" name="tara">
+            <option value="">Alegeți o țară...</option>
+            <option value="romania">România</option>
+            <option value="moldova">Moldova</option>
+            <option value="franta">Franța</option>
+            <option value="spania">Spania</option>
+        </select>
+        <br>
+
+        <br>
+        <button type="submit">Trimite</button>
+    </form>
+</body>
+
+</html>
